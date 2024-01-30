@@ -1,4 +1,4 @@
-this.firstName = 'Han';
+this.firstName = 'Han'; // refers to window object - parent of all objects
 this.lastName = 'Ku';
 const person = {
     firstName: 'John',

@@ -7,3 +7,5 @@ function sum(a,b) {
 }
 
 console.log(foo(sum,2,3));
+console.log(sum);
+// can sum as argument to foo
