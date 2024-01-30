@@ -12,15 +12,23 @@
     <script>
         const obj = {
             msg: 'Hello World',
-            hello:  () => {
+            hello: function() {
                 document.getElementById('demo').innerHTML += this.msg;
+                // if use arrow function, the this is bound to surrounding scope which is the
+                // window object
+                // update from => to fucntion
             }
         };
         window.addEventListener('load', () => {
             obj.hello();
+            console.log(this);
+            // if these are changed to function() - will get button id when clicked
+            // this in console.log is bound to caller which is load event
+            // if arrow - it logs window - binds to window
         });
         document.getElementById('btn').addEventListener('click', () => {
             obj.hello();
+            console.log(this);
         });
     </script>
 </body>
