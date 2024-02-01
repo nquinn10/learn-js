@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fad7cd1-8f9e-439b-9285-0f2f0afd2bd3" name="Changes" comment=".idea files">
+    <list default="true" id="5fad7cd1-8f9e-439b-9285-0f2f0afd2bd3" name="Changes" comment="updates to array1-q.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/scripts/manipulatedom.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/scripts/manipulatedom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,20 +23,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nicolequinn/Documents/Northeastern-Align/CS5500/learn-js&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/nicolequinn/Documents/Northeastern-Align/CS5500/learn-js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="learn-js" />
@@ -67,7 +67,7 @@
       <workItem from="1706635054597" duration="5462000" />
       <workItem from="1706816172171" duration="1881000" />
       <workItem from="1706818193632" duration="451000" />
-      <workItem from="1706818654876" duration="1349000" />
+      <workItem from="1706818654876" duration="5377000" />
     </task>
     <task id="LOCAL-00001" summary=".idea files">
       <option name="closed" value="true" />
@@ -77,7 +77,47 @@
       <option name="project" value="LOCAL" />
       <updated>1706818738881</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updates to quiz/scripts/manipulatedom.js for inclass activity">
+      <option name="closed" value="true" />
+      <created>1706820139339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706820139339</updated>
+    </task>
+    <task id="LOCAL-00003" summary="notes added in map.js">
+      <option name="closed" value="true" />
+      <created>1706822204503</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706822204503</updated>
+    </task>
+    <task id="LOCAL-00004" summary="quiz/scripts/map-deep.js updates">
+      <option name="closed" value="true" />
+      <created>1706822541358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706822541358</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updates to isNan">
+      <option name="closed" value="true" />
+      <created>1706822864524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706822864524</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updates to array1-q.js">
+      <option name="closed" value="true" />
+      <created>1706831258947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706831258947</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +125,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea files" />
+    <MESSAGE value="updates to quiz/scripts/manipulatedom.js for inclass activity" />
+    <MESSAGE value="notes added in map.js" />
+    <MESSAGE value="quiz/scripts/map-deep.js updates" />
+    <MESSAGE value="updates to isNan" />
+    <MESSAGE value="updates to array1-q.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates to array1-q.js" />
   </component>
 </project>
