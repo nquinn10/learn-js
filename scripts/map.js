@@ -9,7 +9,9 @@ const originalArray = [
   const newArray = originalArray.map((item) => {
     // Creating a new object with the same properties
     // return { id: item.id, name: item.name.toUpperCase(), age: item.age };
+      // must return from a map - if do not will get undefined result
     // spread syntax creates a shallow copy
+    // only want to change the name
     return { ...item, name: item.name.toUpperCase() };
   });
   
