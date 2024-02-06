@@ -1,15 +1,18 @@
 class PStack {
-  #id;
+  #id; // how to add private property
+  // private properties are not accessible from outside the class
+  // including child classes
   constructor() {
     this.#id = Math.floor(Math.random() * 100) + 1;
   }
 
-  showId() {
+  // private method not avilable to child classes
+  #showId() { // can also define private method - not accessible outside of class only methods inside
     console.log(this);
     return this.#id;
   }
 
-  push(p) {
+  push(p) { // child class would be responsible for implementing
     // implement in child class
   }
 
@@ -24,6 +27,12 @@ class PStackImpl extends PStack {
   constructor() {
     super();
   }
+
+  showId() {
+    console.log(this);
+    return this.#id;
+  }
+
   push(p) {
     return this.#persons.push(p)
   }
